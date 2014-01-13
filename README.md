@@ -4,7 +4,7 @@ homebrew-pugixml
 [homebrew][h] + [pugixml][p]
 
 [h]: https://github.com/mxcl/homebrew
-[p]: https://code.google.com/p/pugixml/
+[p]: http://pugixml.org
 
 **Installation**
 
