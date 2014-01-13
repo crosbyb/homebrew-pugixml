@@ -3,7 +3,7 @@ require 'formula'
 class Pugixml < Formula
   homepage 'https://code.google.com/p/pugixml/'
   url 'http://pugixml.googlecode.com/files/pugixml-1.2.tar.gz'
-  sha1 'a1178c2e78d0da1b6543d96f31cf75148b36911c'
+  sha1 '1eee11df5d61fea31a977d98bd2dcc9421231f9e'
 
   depends_on 'cmake' => :build
 
