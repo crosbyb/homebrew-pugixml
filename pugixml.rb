@@ -16,6 +16,9 @@ class Pugixml < Formula
 
         cmake_minimum_required(VERSION 2.6)
 
+        # C++11
+        set(CMAKE_CXX_FLAGS "-std=c++0x -stdlib=libc++ -g3 -Wall -O0")
+
         set(HEADERS ../src/pugixml.hpp ../src/pugiconfig.hpp)
         set(SOURCES ${HEADERS} ../src/pugixml.cpp)
 
